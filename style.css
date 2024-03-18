@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+    --main-bg-color: #121218;
+    --main-accent-color: peach;
+    --main-font-color: whitesmoke;
+    --secondary-font-color: black;
+
+    --main-font-size: 2rem;
+}
+
+body {
+    font-size: 2rem;
+    color: var(--main-font-color);
+    background-color: var(--main-bg-color);
+}
+
+button {
+    color: var(--main-font-color);
+    background: var(--main-accent-color);
+    font-size: var(--main-font-size);
+}
+
+
